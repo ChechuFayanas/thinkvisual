@@ -138,6 +138,7 @@ main {
 
 }
 
+
 .botoncontactame {
   color: beige;
   background-color: indigo;
@@ -358,6 +359,18 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.contenedor-video{
+  width: 100%;
+  background-color: #833ab4;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.contenedor-video iframe {
+  margin: 0 auto;
 }
 /*FORMULARIO*/
 .contacto {
